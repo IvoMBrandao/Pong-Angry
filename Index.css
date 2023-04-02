@@ -1,0 +1,51 @@
+@import url('httpsL//fonts.googleapis.com/css2?family=Poppins&display=swap');
+    * {
+        font-family: 'Poppins', sans-serif;
+    }
+    body {
+        text-align: center;
+        background-color: ghostwhite;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+        position: fixed;
+        width: 100%;
+    }
+    
+    
+    
+    #soundIconId{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+         right: 340px;
+         margin-top: -60px;
+    }
+
+   h1{
+       font-size: 40px;
+       margin-top: 0px;
+   }
+         #playTimer{
+            font-size: 20px;
+            padding: 8px 50px;
+            background-color: black;
+            border: none;
+            color: green;
+            border-radius: 20px;
+            font-weight: 800px;
+            cursor: pointer;
+            transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+            
+            
+        }
+
+         #playTimer:hover{
+            background:blue;
+            transition: all 1s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .buttontime {
+            margin-bottom: 10px;
+        }
